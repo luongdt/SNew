@@ -1,4 +1,4 @@
-package xyz.luongdang.smslunar.adapter;
+package com.codem.smstemplate.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import xyz.luongdang.smslunar.R;
+import com.codem.smstemplate.R;
 
 
 public class AdapterMenu extends ArrayAdapter {

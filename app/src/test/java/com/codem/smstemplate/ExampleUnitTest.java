@@ -1,4 +1,4 @@
-package xyz.luongdang.smslunar;
+package com.codem.smstemplate;
 
 import org.junit.Test;
 

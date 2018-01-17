@@ -12,8 +12,9 @@
     <string name="title_activity_gui_tin_nhan">GuiTinNhan</string>
     <string name="title_activity_danh_ba">DanhBa</string>
     <string name="title_activity_main_page">Home</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Lời chúc tết</string>
+    <string name="title_dashboard">Câu đối</string>
+    <string name="title_notifications">SMS kute</string>
+    <string name="title_phongtuc">Phong tục</string>
 
 </resources>

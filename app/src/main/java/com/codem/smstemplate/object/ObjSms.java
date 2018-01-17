@@ -1,4 +1,4 @@
-package xyz.luongdang.smslunar.object;
+package com.codem.smstemplate.object;
 
 public class ObjSms {
 	public int id;

@@ -1,4 +1,4 @@
-package xyz.luongdang.smslunar.adapter;
+package com.codem.smstemplate.adapter;
 
 import java.util.ArrayList;
 
@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import xyz.luongdang.smslunar.R;
-import xyz.luongdang.smslunar.object.ObjContact;
+import com.codem.smstemplate.R;
+import com.codem.smstemplate.object.ObjContact;
 
 
 public class AdapterContact extends

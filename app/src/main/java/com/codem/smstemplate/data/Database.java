@@ -1,4 +1,4 @@
-package xyz.luongdang.smslunar.data;
+package com.codem.smstemplate.data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
