@@ -28,14 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity.SendSms"
-            android:label="Gửi Tin"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:windowSoftInputMode="stateHidden"></activity>
-        <activity
-            android:name=".activity.ContactApp"
-            android:label="Danh Bạ"></activity>
+
     </application>
 
 </manifest>

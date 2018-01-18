@@ -7,23 +7,18 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.codem.smstemplate.R;
-import com.codem.smstemplate.activity.MainPageActivity;
-import com.codem.smstemplate.object.ObjSms;
-
-import java.util.ArrayList;
 
 /**
  * Created by Luongdt on 1/18/2018.
  */
 
-public class HomeFragment extends Fragment{
-    private ArrayList<ObjSms> listSMS = new ArrayList<>();
-    public HomeFragment() {
+public class CaudoiFragment extends Fragment{
+    public CaudoiFragment() {
         // Required empty public constructor
     }
 
-    public static HomeFragment newInstance() {
-        HomeFragment fragment = new HomeFragment();
+    public static CaudoiFragment newInstance() {
+        CaudoiFragment fragment = new CaudoiFragment();
 
         return fragment;
     }
@@ -36,10 +31,7 @@ public class HomeFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
-        listSMS = ((MainPageActivity)getActivity()).db.loadDuLieuSuKien("NAMMOI");
+        View view = inflater.inflate(R.layout.fragment_caudoi, container, false);
         return view;
     }
-
-
 }
